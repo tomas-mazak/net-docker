@@ -10,6 +10,7 @@ RUN apt-get update && \
         netcat \
         nmap \
         dnsutils \
+        telnet \
         curl && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists
