@@ -9,3 +9,4 @@ Contains
 * nc
 * nmap 
 * curl
+* AWS CLI
