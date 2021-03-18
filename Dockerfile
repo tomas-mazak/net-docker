@@ -11,7 +11,8 @@ RUN apt-get update && \
         nmap \
         dnsutils \
         telnet \
-        curl && \
+        curl \
+        awscli && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists
 
